@@ -1,0 +1,30 @@
+name: flow_state_controller
+description: "A lightweight state management solution for Flutter that handles loading, success, and failure states with stream-based reactivity."
+version: 1.0.0
+
+repository: https://github.com/Farid023/flow_state_controller
+homepage: https://github.com/Farid023/flow_state_controller
+documentation: https://github.com/Farid023/flow_state_controller
+issue_tracker: https://github.com/Farid023/flow_state_controller/issues
+license: MIT
+topics:
+  - state-management
+  - flutter
+  - rxdart
+  - streams
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.28.0
+  equatable: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
